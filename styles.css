@@ -1,0 +1,106 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: darkseagreen;
+}
+
+.menu {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.menu a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.menu a:hover {
+    background: #ddd;
+    color: black;
+}
+
+.content {
+    padding: 16px;
+    margin-top: 30px;
+    height: 1500px;
+}
+
+.header {
+    line-height: 1;
+    margin-top: 50px;
+    text-align: left;
+    margin-left: 130px;
+}
+
+.text {
+    margin-left: 150px;
+    margin-top: 0,5em;
+    margin-bottom: 2em;
+    padding: 0px 10px;
+    margin-right: 185px;
+    font-size: large;
+    line-height: 1.5;
+}
+
+p {
+    line-height: 30px;
+}
+
+.graph {
+    text-align: center;
+}
+
+.table {
+	width: 100%;
+	margin-bottom: 20px;
+	border: 5px solid #fff;
+	border-top: 5px solid #fff;
+	border-bottom: 3px solid #fff;
+	border-collapse: collapse;
+	outline: 3px solid darkseagreen;
+	font-size: 15px;
+	background: #fff!important;
+
+}
+
+.table th {
+	font-weight: bold;
+	padding: 7px;
+	background: darkseagreen;
+	border: none;
+	text-align: left;
+	font-size: 15px;
+	border-top: 3px solid #fff;
+	border-bottom: 3px solid darkseagreen;
+    color: black;
+}
+
+.table td {
+	padding: 7px;
+	border: none;
+	border-top: 3px solid #fff;
+	border-bottom: 3px solid #fff;
+	font-size: 20px;
+    text-align: center;
+}
+
+.table tbody tr:nth-child(even){
+    background: #e4e4e4!important;
+}
+
+ul li{
+    padding: 5px 10px;
+}
